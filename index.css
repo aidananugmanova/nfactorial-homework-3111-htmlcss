@@ -1,0 +1,105 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* row 1 */
+#redRow1 {
+    width: 50%;
+    height: 20px;
+    background-color: red;
+}
+#blueRow1 {
+    width: 50%;
+    height: 20px;
+    background-color: blue;
+}
+/* row 2 */
+#greenRow2 {
+    width: 90%;
+    height: 20px;
+    background-color: green;
+}
+#blueRow2 {
+    width: 10%;
+    height: 20px;
+    background-color: blue;
+}
+/* row 3 */
+#redRow3 {
+    width: 10%;
+    height: 20px;
+    background-color: red;
+}
+#greenRow3 {
+    width: 80%;
+    height: 20px;
+    background-color: green;
+}
+#blueRow3 {
+    width: 10%;
+    height: 20px;
+    background-color: blue;
+}
+/* row 4 */
+#redRow4 {
+    width: 90%;
+    height: 20px;
+    background-color: red;
+}
+#blueRow4 {
+    width: 10%;
+    height: 20px;
+    background-color: blue;
+}
+/* row 5 */
+#greenRow5 {
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
+
+#redRow5 {
+    margin: auto;
+    background-color: red;
+    display: inline-block;
+    padding: 6px;
+}
+
+/* row 6 */ 
+#redRow6 {
+    width: 100%;
+    background-color: red;
+    height: 20px;
+}
+
+#blueRow6 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    height: 100%;
+    width: 30px;
+}
+
+
+/* row 8 */
+#yellowRow8 {
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.greenRow8 {
+    background-color: orange;
+    display: flex;
+}
+.yellowRow8 div{
+    min-width: 30px;
+    height: 20px; 
+    border-style: solid;  
+}
+.yellowRow8 div:nth-child(even) {
+     background-color: green;
+}
